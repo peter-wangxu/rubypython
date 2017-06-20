@@ -2,12 +2,13 @@
 # stub: rubypython 0.6.4 ruby lib
 
 Gem::Specification.new do |s|
-  s.name = "rubypython"
+  s.name = "pybridge"
   s.version = "0.6.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
-  s.authors = ["Steeve Morin", "Austin Ziegler", "Zach Raines"]
+  s.authors = ["Steeve Morin", "Austin Ziegler", "Zach Raines", "Peter Wang"]
+  s.homepage = 'https://github.com/peter-wangxu/rubypython'
   s.date = "2014-02-04"
   s.description = "RubyPython is a bridge between the Ruby and Python interpreters. It embeds a\nrunning Python interpreter in the Ruby application's process using FFI and\nprovides a means for wrapping, converting, and calling Python objects and\nmethods.\n\nRubyPython uses FFI to marshal the data between the Ruby and Python VMs and\nmake Python calls. You can:\n\n* Inherit from Python classes.\n* Configure callbacks from Python.\n* Run Python generators (on Ruby 1.9.2 or later)."
   s.email = ["swiuzzz+rubypython@gmail.com", "austin@rubyforge.org", "raineszm+rubypython@gmail.com"]
@@ -16,7 +17,6 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.rdoc_options = ["--main", "README.rdoc"]
   s.requirements = ["Python, ~> 2.4"]
-  s.rubyforge_project = "rubypython"
   s.rubygems_version = "2.2.1"
   s.summary = "RubyPython is a bridge between the Ruby and Python interpreters"
 

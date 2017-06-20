@@ -14,12 +14,18 @@ make Python calls. You can:
 * Configure callbacks from Python.
 * Run Python generators (on Ruby 1.9.2 or later).
 
+Note that, this is a fork of {RubyPython}[https://github.com/halostatue/rubypython],
+since it's not activily maintained. I have to rename/publish the package via a new
+name {pybridge}[https://rubygems.org/gems/pybridge].
+
+If the RubyPython became active again, I am welling to merge this back to it:).
 == Where
 
 * {RubyForge}[http://rubypython.rubyforge.org/]
 * {RubyGems}[http://rubygems.org/gems/rubypython]
 * {Bitbucket}[http://raineszm.bitbucket.org/rubypython/]
 * {GitHub}[https://github.com/halostatue/rubypython]
+* {GitHub forked by peter-wangxu}[https://github.com/peter-wangxu/rubypython]
 
 The RubyPython homepage, project description, and main downloads can be found
 on {RubyForge}[http://rubypython.rubyforge.org/].
